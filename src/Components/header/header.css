@@ -1,0 +1,28 @@
+.contenier {
+  padding: 0 78px;
+}
+.country {
+  width: 100vw;
+}
+.country__header__wrp {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #2b3844;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.06);
+}
+
+.country__header__wrp h2 {
+  font-weight: 800;
+}
+.country__header__wrp p {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+.country__header__wrp p,
+img {
+  cursor: pointer;
+}
